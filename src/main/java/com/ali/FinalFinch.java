@@ -14,13 +14,12 @@ public class FinalFinch {
         // Play Note
         thumper.playNote(60,1);
 
-        // Display Colors On All Lights
+        // Display Colors On All Lights In Finch Tail And Beak
         thumper.setTail("all",10,10,10);
         thumper.setTail(1, 100, 0, 0);
         thumper.setTail(2, 0, 100, 0);
         thumper.setTail(3, 0, 0, 100);
         thumper.setTail(4, 90, 75, 45);
-
         thumper.setBeak(65, 35, 18);
 
         // Print Out Name: THUMPER
@@ -70,10 +69,10 @@ public class FinalFinch {
         thumper.playNote(32, 1);
         thumper.pause(0.4);
 
-        // Pause for 2 seconds
+        // Pause for 1 seconds
         thumper.pause(1);
 
-        // Spin Nack Around 5 Times Left To Reverse First Spin
+        // Spin Nack Around 3 Times Left To Reverse First Spin
         thumper.setTurn("L",1080,100);
 
         // Wiggle And Play Notes
